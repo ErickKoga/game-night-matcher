@@ -1,0 +1,27 @@
+{
+  "name": "game-night-matcher",
+  "version": "0.0.1",
+  "description": "Game Night Matcher helps small groups find the best multiplayer or co-op games to play together by syncing their Steam libraries, filtering compatible games, rating/voting them, and matching based on preferences. The system includes random selection among top matches.",
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "directories": {
+    "docs": "docs"
+  },
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickKoga/game-night-matcher.git"
+  },
+  "keywords": [],
+  "author": "Marcos Bicalho, Erick Koga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErickKoga/game-night-matcher/issues"
+  },
+  "homepage": "https://github.com/ErickKoga/game-night-matcher#readme"
+}
