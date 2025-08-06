@@ -1,0 +1,45 @@
+import {  Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Getting Started/Configure" />
+
+# Configure Storybook
+
+Welcome to the Game Night Matcher Storybook!  
+This guide will help you configure and use Storybook with your shared UI library.
+
+## How to use
+
+1. **Start Storybook**
+
+   ```bash
+   npm run storybook
+   ```
+
+2. **Add stories**
+
+   - Place your stories in `libs/storybook/src/stories/`.
+   - Use `.stories.tsx` for React components.
+
+3. **Import shared UI components**
+
+   ```tsx
+   import { Button } from '@gnm/ui';
+   ```
+
+4. **Import styles if needed**
+
+   If your UI library exports CSS, import it in `.storybook/preview.js` or at the top of your story file:
+
+   ```js
+   import '@gnm/ui/style';
+   ```
+
+## Tips
+
+- Use [controls](https://storybook.js.org/docs/react/essentials/controls) to interactively change props.
+- Use [docs blocks](https://storybook.js.org/docs/writing-docs/docs-page) for better documentation.
+- Keep stories focused and simple for best results.
+
+---
+
+For more information, see the [Storybook documentation](https://storybook.js.org/docs/react/get-started/introduction).

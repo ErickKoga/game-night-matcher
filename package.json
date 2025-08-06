@@ -5,6 +5,7 @@
   "workspaces": [
     "apps/api",
     "apps/web",
+    "libs/storybook",
     "libs/ui",
     "libs/utils"
   ],
