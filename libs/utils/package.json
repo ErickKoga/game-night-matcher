@@ -1,0 +1,30 @@
+{
+  "name": "@gnm/utils",
+  "version": "0.0.1",
+  "description": "Utility functions for Game Night Matcher",
+  "author": "Marcos Bicalho, Erick Koga",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickKoga/game-night-matcher.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "dependencies": {
+    "tailwind-merge": "^3.3.1",
+    "typescript": "^5.0.0"
+  }
+}
